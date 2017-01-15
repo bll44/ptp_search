@@ -1,2 +1,3 @@
 ptp_username = '<username>'
 ptp_password = '<password>'
+ptp_passkey = '<passkey>'
