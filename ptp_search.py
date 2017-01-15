@@ -1,7 +1,5 @@
 import urllib.parse
 import requests
-import inspect
-import sys
 import json
 import pprint
 
@@ -15,9 +13,9 @@ def parse_url(ss):
 def main():
     url = 'https://passthepopcorn.me/ajax.php?action=login'
     login_data = {
-        'username': 'blatsha92',
-        'password': 'Mew9apr10',
-        'passkey': 'qwmzz0rnvnpjpuf5j8ahm0swhq6cmpqy'
+        'username': '<username>',
+        'password': '<password>',
+        'passkey': '<passkey>'
     }
     headers = {
         'user-agent': h_user_agent
