@@ -3,6 +3,9 @@ import pprint
 import urllib.parse
 import requests
 import config
+import cherrypy
+import settings
+
 
 h_user_agent = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
 
@@ -50,8 +53,14 @@ def main():
     pprint.pprint(download_url)
     exit()
 
+class HelloWorld(object):
+    @cherrypy.expose
+
+    def index(self):
+        return settings.PROJECT_ROOT
+
 
 
 
 if __name__ == '__main__':
-    main()
+    cherrypy.quickstart(HelloWorld())
