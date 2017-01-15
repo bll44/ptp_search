@@ -2,7 +2,7 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.4.5 virtualenv at ~/.virtualenvs3/ptpSearch (1)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.5.3rc1 virtualenv at C:\Users\blatsha\Development\pycharm\.virtualenv\ptp_search" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
